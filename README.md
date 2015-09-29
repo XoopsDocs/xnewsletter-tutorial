@@ -15,7 +15,22 @@
 This module is a newsletter module for XOOPS created by Goffy.
 
 ![image001.png](assets/image001.jpg)
-*Figure 1: Main view of the xLanguage Module (Admin side)*
+*Figure 1: Main view of the xNewsletter Module (Admin side)*
+
+## Key Features:
+
+- Usage of one or more e-mail-accounts
+- Admin of one or more newsletter possible
+- Subscription procedure optionally use confirmation system (double-opt-in)
+- Detailed handling of permissions for subscription procedures
+- Newsletters are based on templates
+- Detailed handling of permissions for groups and newsletter (subscribe, write, send)
+- Send: send test mail, resend to all subscribers or only to subscribers, where sending failed
+- Sending newsletters to unlimited number of recipients or in packages with certain number of recipients by using cronjob
+- Bounced email handler for handling Bounced emails in case of invalid e-mail-addresses
+- Optional synchronization with mailing lists (e.g. majordomo)
+- Maintenance function included
+- Creating protocol for the important steps
 
 # Table of Content
 
