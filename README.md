@@ -14,7 +14,7 @@
 
 This module is a newsletter module for XOOPS created by Goffy.
 
-![image001.png](assets/image001.png)
+![image001.png](assets/image001.jpg)
 *Figure 1: Main view of the xLanguage Module (Admin side)*
 
 # Table of Content
