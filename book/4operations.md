@@ -84,7 +84,7 @@ One of the disadvantages of mailing lists is, that, if one person is registered 
 
 Normally the tab "Mailing list" is hidden, if this option is disabled.
 
-**xNewsletter cannot create mailing lists. **
+>![](../assets/info/important.png) **IMPORTANT:** xNewsletter cannot create mailing lists. 
 
 #### Bounced email handler (BMH)
 If you send newsletters, there will always be some emails not delivered to recipient (Bounced email), because email is no more valid, mailbox is full, and so on.
