@@ -40,21 +40,21 @@ If you want to see the buttons of social networks, click on Yes
 Insert here the code of social networks
 	
 ### Use additional feature mailing lists
-If you have existing mailing lists, you can synchronize and deregister a newsletter with a mailing list. xNewsletter cannot create Mailing List . If you enable this feature, you'll get an additional tab on the administration page of xNewsletter.
+If you have existing mailing lists, you can synchronize the subscribers of a newsletter category with a mailing list.<br/> xnewsletter cannot create mailing lists. If you enable this feature, you'll get an additional tab on the administration page of xnewsletter.
 
-Use field salutation
+### Use field salutation
 Please decide, whether you want use salutations like 'Mr.', 'Mrs.',...
-	Yes No 
-Groups (un)subscribing without confirmation email
+
+### Groups (un)subscribing without confirmation email
 Define the groups, which can make (un)subscriptions to a newsletter directly, without sending back a confirmation email
 	
-Groups with permission to change subscription of other persons
+### Groups with permission to change subscription of other persons
 Define the groups, which can edit the subscriptions of other persons. Deleting the registration is not possible. This groups need also the permission to list the subscribers of a newsletter category. It is recommended to give this groups also the permission to create newsletters.
 	
-Send e-mails in packages
+### Send e-mails in packages
 Number of e-mails, which should be sent in one package. 0 means, that all e-mails always be sent immediatly. You can use this option only, if you can start cronjobs with external programs.
 	
-Time period for sending e-mails in packages
+### Time period for sending e-mails in packages
 Time period in minutes, when the next package should be sent. Only used, if 'Send e-mails in packages' is bigger than 0.
 
 
