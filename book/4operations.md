@@ -35,24 +35,24 @@ The type of text editor, allows mime-types and size of mail attachments can be s
 The newsletters are template based.
 The templates are stored as files in language/{yourlanguage}/templates or stored in database.
 To create a new template you can:
-make a new template html-file in in language/{yourlanguage}/templates folder and to put in the smarty-vars;
-from admin side create a new template item and to put in the smarty-vars.
+- make a new template html-file in in language/{yourlanguage}/templates folder and to put in the smarty-vars;
+- from admin side create a new template item and to put in the smarty-vars.
 
-This module uses the Xoops Smarty template engine to render the email letter.
+This module uses the XOOPS Smarty template engine to render the email letter.
 
 Available smarty-vars are:
-<{$salutation}> or <{$sex}>: the subscriber Salutation field
-<{$firstname}>: the subscriber First name field
-<{$lastname}>: the subscriber Last name field
-<{$email}> or <{$subscr_email}>: the subscriber Email field
-<{$title}>: the newsletter Title field
-<{$content}>: the newsletter Content field
-<{$date}>: the sending date as timestamp integer 
-(e.g.: <{$date|date_format:"%Y/%m/%d"}> will output the date formatted as 2001/01/04)
-<{$unsubscribe_url}>: the unsubscribe url
-<{$xoops_url}>: the site main url (e.g. http://localhost/)
-<{$xoops_langcode}>: the site langcode (e.g. en)
-<{$xoops_charset}>: the site cherset (e.g. UTF-8)
+- <{$salutation}> or <{$sex}>: the subscriber Salutation field
+- <{$firstname}>: the subscriber First name field
+- <{$lastname}>: the subscriber Last name field
+- <{$email}> or <{$subscr_email}>: the subscriber Email field
+- <{$title}>: the newsletter Title field
+- <{$content}>: the newsletter Content field
+- <{$date}>: the sending date as timestamp integer<br> 
+  (e.g.: <{$date|date_format:"%Y/%m/%d"}> will output the date formatted as 2001/01/04)
+- <{$unsubscribe_url}>: the unsubscribe url
+- <{$xoops_url}>: the site main url (e.g. http://localhost/)
+- <{$xoops_langcode}>: the site langcode (e.g. en)
+- <{$xoops_charset}>: the site cherset (e.g. UTF-8)
 
 
 #### Sending newsletter
