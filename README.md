@@ -12,7 +12,7 @@
 
 ## Module Purpose 
 
-This module is a newsletter module for XOOPS created by Goffy.
+This module is a Newsletter module for XOOPS created by Goffy.
 
 ![image001.png](assets/image001.jpg)
 *Figure 1: Main view of the xNewsletter Module (Admin side)*
