@@ -41,6 +41,7 @@ Insert here the code of social networks
 	
 ### Use additional feature mailing lists
 If you have existing mailing lists, you can synchronize the subscribers of a newsletter category with a mailing list.<br/> xnewsletter cannot create mailing lists. If you enable this feature, you'll get an additional tab on the administration page of xnewsletter.
+![](../assets/info/important.png) **IMPORTANT:** xNewsletter cannot create mailing lists. 
 
 ### Use field salutation
 Please decide, whether you want use salutations like 'Mr.', 'Mrs.',...
