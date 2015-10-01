@@ -38,7 +38,7 @@ To create a new template you can:
 - make a new template html-file in in language/{yourlanguage}/templates folder and to put in the smarty-vars;
 - from admin side create a new template item and to put in the smarty-vars.
 
-This module uses the XOOPS Smarty template engine to render the email letter.
+This module uses the XOOPS [Smarty template engine](http://www.smarty.net/) to render the email letter.
 
 Available smarty-vars are:
 - <{$salutation}> or <{$sex}>: the subscriber Salutation field
