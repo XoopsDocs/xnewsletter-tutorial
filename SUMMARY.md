@@ -13,7 +13,7 @@
    * [Mailing lists](book/mailing_lists.md)
    * [Bounced email handler](book/bounced_email_handler.md)
    * [Maintainance](book/maintainance.md)
-   * Import
+   * [Import](book/import.md)
    * About
    * Help
 * [Preferences](book/3preferencesmd.md)
