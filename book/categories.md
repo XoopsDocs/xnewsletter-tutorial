@@ -3,6 +3,7 @@
 You can handle one or more newsletter categories. 
 
 ![](../assets/category1_en.PNG)
+
 #### Additional Info
 This info will be shown to users to explain the reason/intention for this newsletter 
 
