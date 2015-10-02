@@ -8,6 +8,6 @@ The user can also see a preview of the newsletter.
 
 Depending to the rights of current user, he can have more possibilities (edit, delete, send,...) 
 
-![](../assets/admin area/newsletter2_en.PNG)
+![](user_newsletterlist2_en.PNG)
 
 
