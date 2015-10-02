@@ -24,6 +24,7 @@ Pay attention: functions like testing account, sending emails, start Bounced ema
 
 #### Possible reaction on bounced mails
 ![](../assets/bmh2_en.PNG)
-If mails to a subscriber get bounced, you can decide, what should hjappen with the subscriber. 
+
+If mails to a subscriber get bounced, you can decide, what should happen with the subscriber. 
 If it is a permanent problem (e.g. email address isn't existing anymore) it is recommended to delete the subscriber.
 If it is a temporary problem (e.g. mailbox full) it is recommended to quit the subscriber. He can reactivate late his subscriptions.
