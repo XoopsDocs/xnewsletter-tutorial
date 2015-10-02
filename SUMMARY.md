@@ -9,7 +9,7 @@
    * [Categories-Subscribers](book/categories-subscribers.md)
    * [Newsletters](book/newsletters.md)
    * [Attachments](book/attachments.md)
-   * Protocols
+   * [Protocols](book/protocols.md)
    * Mailing lists
    * Bounced email handler
    * Maintainance
