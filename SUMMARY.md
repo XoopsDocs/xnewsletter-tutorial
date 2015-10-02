@@ -23,6 +23,7 @@
    * [Subscribe and unsubscribe](book/subscribe_and_unsubscribe.md)
    * [Newsletter list](book/newsletterlist_md.md)
    * [Create newsletter](book/create_newsletter.md)
+   * List subscribers
 * [Blocks](book/6blocks.md)
 * [Templates](book/7templates.md)
 * [Other](book/8other.md)
