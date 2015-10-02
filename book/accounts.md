@@ -17,7 +17,6 @@ Example for an account using php mail() function
 Example for an account using a smtp mail account
 ![](../assets/accounts4_en.PNG)
 
-
 There is a feature for testing pop3 and imap accounts.
 ![](../assets/accounts2_en.PNG)
 
