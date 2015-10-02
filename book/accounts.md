@@ -16,8 +16,12 @@ Example for an account using php mail() function
 
 Example for an account using a smtp mail account
 ![](../assets/accounts4_en.PNG)
+If you use a smtp or google account, you can also use bounced email handler (BMH) function.
+If you use BMH, you have to define, what should happen with bounced mails.
+If you want to move them to special folders of your email account, you have to define this folders. You can select a standard folder in your mailbox (e.g. INBOX.Trash) or create your own special folders like 'hard' and 'soft'. If you type in a new folder name, the folder will be automatically created (this function is not available for gmail-accounts). 
 
-There is a feature for testing pop3 and imap accounts.
+#### Test your settings
+There is a feature for testing pop3 and imap/smtp accounts.
 ![](../assets/accounts2_en.PNG)
 
 After starting the test you will see, whether the account and your chosen setting are well.
