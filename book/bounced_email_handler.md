@@ -6,11 +6,6 @@ On this tab you can see an overview of the results of the last run BMH.
 
 If you run BMH, the module will check your email account for bounced mails.
 Mails, which are detected as bounced emails by BMH, can be deleted or moved in a special folder, you have to define.
-Possible actions for Bounced emails:
--- no action (only store)
--- quit temporary the subscriptions of this email-address
--- delete the subscriptions of this email-address
-
 
 #### Types of Bounced emails
 **bounce type hard:** This means that there is a permanent error when sending a mail, e.g. unknown recipient, unknown domain, and so on.
