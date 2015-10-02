@@ -10,7 +10,7 @@
    * [Newsletters](book/newsletters.md)
    * [Attachments](book/attachments.md)
    * [Protocols](book/protocols.md)
-   * Mailing lists
+   * [Mailing lists](book/mailing_lists.md)
    * Bounced email handler
    * Maintainance
    * Import
