@@ -11,10 +11,10 @@ You have the possibility to create an account for sending
 * via a smtp email account
 * via a google email account
 
-Example for an account using php mail() function
+##### Example for an account using php mail() function
 ![](../assets/accounts3_en.PNG)
 
-Example for an account using a smtp mail account
+##### Example for an account using a smtp mail account
 ![](../assets/accounts4_en.PNG)
 If you use a smtp or google account, you can also use bounced email handler (BMH) function.
 If you use BMH, you have to define, what should happen with bounced mails.
