@@ -4,7 +4,7 @@ On the xnewsletter dashboard you get a short overview about the functionalities 
 
 ![](../assets/admin_en.PNG)
 
-### Functionalities for admins:
+## Functionalities for admins:
 * [Accounts](book/accounts.md)
 * [Categories](book/categories.md)
 * [Subscribers](book/subscribers.md)
