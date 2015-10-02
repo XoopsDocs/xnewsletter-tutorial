@@ -14,7 +14,7 @@
    * [Bounced email handler](book/bounced_email_handler.md)
    * [Maintainance](book/maintainance.md)
    * [Import](book/import.md)
-   * About
+   * [About](book/about.md)
    * Help
 * [Preferences](book/3preferencesmd.md)
 * [Operating Instructions](book/4operations.md)
