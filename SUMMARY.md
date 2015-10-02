@@ -10,6 +10,7 @@
    * [Newsletters](book/newsletters.md)
    * [Attachments](book/attachments.md)
    * [Protocols](book/protocols.md)
+   * [Task list](book/task_list.md)
    * [Mailing lists](book/mailing_lists.md)
    * [Bounced email handler](book/bounced_email_handler.md)
    * [Maintenance](book/maintenance.md)
