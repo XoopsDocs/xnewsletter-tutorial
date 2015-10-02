@@ -5,6 +5,7 @@
 * [Administration Menu](book/2administration.md)
    * [Accounts](book/accounts.md)
    * [Categories](book/categories.md)
+   * Subscribers
 * [Preferences](book/3preferencesmd.md)
 * [Operating Instructions](book/4operations.md)
 * [The User Side](book/5userside.md)
