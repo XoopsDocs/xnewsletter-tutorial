@@ -7,6 +7,7 @@
    * [Categories](book/categories.md)
    * Subscribers
    * Categories-Subscribers
+   * Newsletters
 * [Preferences](book/3preferencesmd.md)
 * [Operating Instructions](book/4operations.md)
 * [The User Side](book/5userside.md)
