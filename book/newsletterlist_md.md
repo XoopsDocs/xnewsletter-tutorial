@@ -10,6 +10,6 @@ Depending to the rights of current user, he can have more information possibilit
 
 ![](../assets/user_area/user_newsletterlist2_en.PNG)
 
-For more info see also ![Newsletter](newsletters.md)
+For more info see also [Newsletter](newsletters.md)
 
 
