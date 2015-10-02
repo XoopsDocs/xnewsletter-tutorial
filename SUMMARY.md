@@ -21,7 +21,7 @@
 * [Operating Instructions](book/4operations.md)
 * [The User Side](book/5userside.md)
    * [Subscribe and unsubscribe](book/subscribe_and_unsubscribe.md)
-   * [Newsletter list](book/newsletter_list.md)
+   * [Newsletter list](book/newsletterlist_md.md)
 * [Blocks](book/6blocks.md)
 * [Templates](book/7templates.md)
 * [Other](book/8other.md)
