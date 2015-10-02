@@ -16,4 +16,6 @@ On the xnewsletter dashboard you get a short overview about the functionality an
 * [Mailinglists](book/mailinglists.md)
 * [Bounced email handler](book/bounced_email_handler.md)
 * [Maintenance](book/maintenance.md)
-* [Accounts](book/accounts.md)
+* [Import](book/import.md)
+* [About](book/about.md)
+* [Help](book/help.md)
