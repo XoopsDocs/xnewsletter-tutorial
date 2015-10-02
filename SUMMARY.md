@@ -6,7 +6,7 @@
    * [Accounts](book/accounts.md)
    * [Categories](book/categories.md)
    * [Subscribers](book/subscribers.md)
-   * Categories-Subscribers
+   * [Categories-Subscribers](book/categories-subscribers.md)
    * Newsletters
    * Attachments
    * Protocols
