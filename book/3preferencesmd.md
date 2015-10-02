@@ -2,7 +2,7 @@
 
 In the module preferences you can set various options for this module:<br/>
 
-![](preferences_en.PNG)
+![](../assets/preferences_en.PNG)
 
 
 ## Options in detail
