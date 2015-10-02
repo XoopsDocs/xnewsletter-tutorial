@@ -1,6 +1,10 @@
 # 2.10 Bounced email handler (BMH)
+If you send newsletters, there will always be some emails not delivered to recipient (Bounced email), because email is no more valid, mailbox is full, and so on.
+To handle this event and to react on this, you can use BMH.
+You can activate BMH for each account.
+Mails, which are detected as Bounced emails by BMH, can be deleted or moved in a special folder, you have to define.
 
-On this tab you can see an overview of the results of the last run BMH.
+In this tab you can see an overview of the results of the last run BMH.
 
 ![](../assets/bmh1_en.PNG)
 
