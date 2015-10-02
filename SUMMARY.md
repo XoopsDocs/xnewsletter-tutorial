@@ -15,7 +15,7 @@
    * [Maintainance](book/maintainance.md)
    * [Import](book/import.md)
    * [About](book/about.md)
-   * Help
+   * [Help](book/help.md)
 * [Preferences](book/3preferencesmd.md)
 * [Operating Instructions](book/4operations.md)
 * [The User Side](book/5userside.md)
