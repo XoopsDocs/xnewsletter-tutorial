@@ -4,4 +4,3 @@ On the xnewsletter dashboard you get a short overview about the functionality an
 
 ![](admin_en.PNG)
 
-accounts.md
