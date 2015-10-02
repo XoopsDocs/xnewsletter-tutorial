@@ -1,6 +1,6 @@
 # 2.2 Newsletter categories
 
-You can handle one or more newsletter categories. 
+You can handle one or more newsletter categories. If you have a sports community you can e.g. create one general, one for each branch (football, biking, walking,...). 
 
 ![](../assets/category1_en.PNG)
 
