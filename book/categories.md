@@ -1,4 +1,4 @@
-# Newsletter categories
+# 2.2 Newsletter categories
 
 You can handle one or more newsletter categories. 
 
