@@ -5,7 +5,7 @@
 The module is based on PHPMailer and PHPMailer-BMH 
 
 #### (Un) subscriptions to newsletters
-You can define for each newsletter and for each group, whether for (un) subscription or change a confirmation email with activation key is necessary or not (use double-option).
+You can define for each group, whether for (un) subscription or change a confirmation email with activation key is necessary or not (use double-option).
 
 #### Create a newsletter
 The newsletter can be created with each text editor which is installed in current xoops core (e.g. TinyMCE). 
