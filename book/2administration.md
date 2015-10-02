@@ -2,9 +2,7 @@
 
 On the xnewsletter dashboard you get a short overview about the functionalities and the content of the module.
 
-![](admin_en.PNG)
-
-
+![](../assets/admin_en.PNG)
 
 ### Functionalities for admins:
 * [Accounts](book/accounts.md)
