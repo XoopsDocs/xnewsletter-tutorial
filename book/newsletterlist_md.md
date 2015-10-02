@@ -6,4 +6,8 @@ The user get a list of all newsletter already sent, but he can only see all news
 
 The user can also see a preview of the newsletter.
 
+Depending to the rights of current user, he can have more possibilities (edit, delete, send,...) 
+
+![](../assets/admin area/newsletter2_en.PNG)
+
 
