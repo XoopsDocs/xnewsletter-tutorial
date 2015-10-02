@@ -2,7 +2,7 @@
 
 On this tab you can see an overview of the actions of newsletter module.
 
-![](../assets/protocol1_en.PNG)
+![](../assets/admin area/protocol1_en.PNG)
 
 
 #### Misc protocol items
@@ -15,4 +15,4 @@ For each newsletter you can see various protocol items for
 * summary protocol for last sending
 * and so on
 
-![](../assets/protocol2_en.PNG)
+![](../assets/admin area/protocol2_en.PNG)
