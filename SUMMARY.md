@@ -5,7 +5,7 @@
 * [Administration Menu](book/2administration.md)
    * [Accounts](book/accounts.md)
    * [Categories](book/categories.md)
-   * Subscribers
+   * [Subscribers](book/subscribers.md)
    * Categories-Subscribers
    * Newsletters
    * Attachments
