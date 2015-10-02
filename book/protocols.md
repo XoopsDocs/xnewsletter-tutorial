@@ -13,3 +13,6 @@ For each newsletter you can see various protocol items for
 * creation and saving the newsletter
 * sending activities for each subscriber (successful/failed)
 * summary protocol for last sending
+* and so on
+
+![](../assets/protocol2_en.PNG)
