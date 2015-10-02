@@ -1,2 +1,2 @@
-# 2.8 Mailing lists
+# 2.8 Mailinglists
 
