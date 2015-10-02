@@ -63,12 +63,11 @@ If you do not use this option, the tab "Task list" is hidden.
 #### Handle mailing lists
 If you have an existing mailing list, you can synchronize the (un) subscriptions of one newsletter category with one mailing list.
 I use majordomo beside this newsletter module because then I can also send an email from my email-client to the newsletter recipients.
-One of the disadvantages of mailing lists is, that, if one person is registered in two or more mailing lists and you send a one newsletter to all mailing lists, this person gets the same newsletter more than one time. With xNewsletter he gets only one newsletter.
-
+One of the disadvantages of mailing lists is, that, if one person is registered in two or more mailing lists and you send a one newsletter to all mailing lists, this person gets the same newsletter more than one time. With xnewsletter he gets only one newsletter.
 
 Normally the tab "Mailing list" is hidden, if this option is disabled.
 
->![](../assets/info/important.png) **IMPORTANT:** xNewsletter cannot create mailing lists. 
+>![](../assets/info/important.png) **IMPORTANT:** xnewsletter cannot create mailing lists. 
 
 #### Bounced email handler (BMH)
 If you send newsletters, there will always be some emails not delivered to recipient (Bounced email), because email is no more valid, mailbox is full, and so on.
