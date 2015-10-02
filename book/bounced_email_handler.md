@@ -21,3 +21,9 @@ This means that there is a temporary problem with sending a mail, e.g. mailbox f
 This mails will not be deleted after detection, but it is recommended using the move soft option in order to keep your basic in box clean.
 
 Pay attention: functions like testing account, sending emails, start Bounced email handler,... work not with local server (you get white page).
+
+#### Possible reaction on bounced mails
+![](../assets/bmh2_en.PNG)
+If mails to a subscriber get bounced, you can decide, what should hjappen with the subscriber. 
+If it is a permanent problem (e.g. email address isn't existing anymore) it is recommended to delete the subscriber.
+If it is a temporary problem (e.g. mailbox full) it is recommended to quit the subscriber. He can reactivate late his subscriptions.
