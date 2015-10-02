@@ -8,3 +8,8 @@ The creator can
 * to which newsletter cats he want to send the newsletter (for more info see [Categories](categories.md))
 * add attachments
 
+He can also decide, whether he want to 
+* send the newsletter immediately
+* see preview
+* sent newsletter as a test to his ohn email
+* do nothing for the moment (only saving)
