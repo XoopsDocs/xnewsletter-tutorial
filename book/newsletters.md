@@ -13,3 +13,12 @@ In this list you can see also
 
 #### Column Action
 ![](../assets/newsletter2_en.PNG)
+Possible actions for a newsletter are
+* edit
+* clone
+* delete
+* show preview
+* send test to defined test email address
+* send to all subscribers of this cat
+* resend newsletter only to subscribers, where last try to send failed
+
