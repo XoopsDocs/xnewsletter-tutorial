@@ -10,3 +10,6 @@ In this list you can see also
 * the account used for sending
 * E-mail for testing newsletter
 * the last status in your protocols
+
+#### Column Action
+![](../assets/newsletter2_en.PNG)
