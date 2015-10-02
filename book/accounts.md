@@ -2,6 +2,8 @@
 
 You can use one or more email-accounts; sending with php mail, php sendmail, smtp is possible.
 
+Example for an account using php mail() function
+
 ![](../assets/accounts1_en.PNG)
 
 There is a feature for testing pop3 and imap accounts.
