@@ -10,3 +10,4 @@ If you click on the cat name or on "details" in "Action" you get the list with t
 
 If you want, you can also subscribe one person to one newsletter cat manually
 ![](../assets/catsub3_en.PNG)
+If you quit a subscription by bounced mail handler, you can see the date of quitting
