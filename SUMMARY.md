@@ -12,7 +12,7 @@
    * [Protocols](book/protocols.md)
    * [Mailing lists](book/mailing_lists.md)
    * [Bounced email handler](book/bounced_email_handler.md)
-   * Maintainance
+   * [Maintainance](book/maintainance.md)
    * Import
    * About
    * Help
