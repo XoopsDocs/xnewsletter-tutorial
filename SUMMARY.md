@@ -14,6 +14,7 @@
    * Bounced email handler
    * Maintainance
    * Import
+   * About
 * [Preferences](book/3preferencesmd.md)
 * [Operating Instructions](book/4operations.md)
 * [The User Side](book/5userside.md)
