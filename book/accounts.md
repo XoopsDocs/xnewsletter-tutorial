@@ -1,4 +1,4 @@
-## 4.1 Accounts
+## 2.1 Accounts
 
 You can use one or more email-accounts; sending with php mail, php sendmail, smtp is possible.
 
