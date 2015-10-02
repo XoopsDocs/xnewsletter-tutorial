@@ -7,7 +7,7 @@
    * [Categories](book/categories.md)
    * [Subscribers](book/subscribers.md)
    * [Categories-Subscribers](book/categories-subscribers.md)
-   * Newsletters
+   * [Newsletters](book/newsletters.md)
    * Attachments
    * Protocols
    * Mailing lists
