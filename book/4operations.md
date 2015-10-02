@@ -56,12 +56,9 @@ The first package will be sent immediately. To start the next sending procedure 
 
 Pay attention: functions like testing account, sending emails, start Bounced email handler,... work not with local server (you get white page).
 
-
 #### Task list
 If you limit emails send in one package, you can see all newsletters waiting for next cronjob and the time, when cronjob can send the newsletter.
-If you do not use this option, this list must always be empty.
-Normally the tab "Task list" is hidden, if this option is disabled.
-
+If you do not use this option, the tab "Task list" is hidden.
 
 #### Handle mailing lists
 If you have an existing mailing list, you can synchronize the (un) subscriptions of one newsletter category with one mailing list.
