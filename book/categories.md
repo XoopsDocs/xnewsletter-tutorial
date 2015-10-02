@@ -2,7 +2,7 @@
 
 You can handle one or more newsletter categories. 
 
-![](../assets/category_en.PNG)
+![](../assets/category1_en.PNG)
 
 It is possible to set permissions to "read", "create", "admin" and "list subscribers" for each newsletter cat per user group.
 
