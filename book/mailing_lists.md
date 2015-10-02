@@ -7,3 +7,4 @@ On this tab you can see an overview of the existing mailing lists. This tab is o
 
 You can add a new mailing list to newsletter module.
 ![](../assets/mailinglist2_en.PNG)
+You have to define the email address, where the command for synchronization
