@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Install/Uninstall](book/1install.md)
 * [Administration Menu](book/2administration.md)
+* [Accounts](book/accounts.md)
 * [Preferences](book/3preferencesmd.md)
 * [Operating Instructions](book/4operations.md)
    * [Accounts](book/accounts.md)
