@@ -13,6 +13,7 @@ In this list you can see also
 
 #### Column Action
 ![](../assets/admin area/newsletter2_en.PNG)
+
 Possible actions for a newsletter are
 * edit
 * clone
