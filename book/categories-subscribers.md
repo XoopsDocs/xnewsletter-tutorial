@@ -5,7 +5,7 @@ On this tab you can see an overview of your newsletter cats.
 
 You can see also in the column "Subscribers" the number of subscribers for this cat.
 
-If you click on the cat name or on "details" in "Action" you get the list with the subscribers
+If you click on the cat name or on "details" ()you get the list with the subscribers
 ![](../assets/admin area/catsub2_en.PNG)
 
 If you want, you can also subscribe one person to one newsletter cat manually
