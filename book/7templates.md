@@ -14,3 +14,8 @@ xnewsletter contains following templates
 * xnewsletter_letter_block_random.html
 * xnewsletter_letter_block_recent.html
 * xnewsletter_subscrinfo_block.html
+
+#### Newsletter templates
+The newsletters are template based.
+The templates are stored as files in language/{yourlanguage}/templates or stored in database.
+For more info see
