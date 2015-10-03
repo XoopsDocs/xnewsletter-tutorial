@@ -15,11 +15,11 @@ In this list you can see also
 ![](../assets/admin area/newsletter2_en.PNG)
 
 Possible actions for a newsletter are
-* edit
-* clone
-* delete
-* show preview
-* send test to defined test email address
-* send to all subscribers of this cat
-* resend newsletter only to subscribers, where last try to send failed
+* ![](../assets/xn_icons/xn_edit.png) edit
+* ![](../assets/xn_icons/xn_clone.png) clone
+* ![](../assets/xn_icons/xn_delete.png) delete
+* ![](../assets/xn_icons/xn_preview.png) show preview
+* ![](../assets/xn_icons/xn_sendtest.png) send test to defined test email address
+* ![](../assets/xn_icons/xn_send.png) send to all subscribers of this cat
+* ![](../assets/xn_icons/xn_resend.png) resend newsletter only to subscribers, where last try to send failed
 
