@@ -45,6 +45,7 @@ This module is a Newsletter module for XOOPS created by Goffy.
    * [Attachments](book/attachments.md)
    * [Protocols](book/protocols.md)
    * [Mailing lists](book/mailing_lists.md)
+   * [Task list](book/tasklist_md.md)
    * [Bounced email handler](book/bounced_email_handler.md)
    * [Maintenance](book/maintenance.md)
    * [Import](book/import.md)
@@ -57,7 +58,6 @@ This module is a Newsletter module for XOOPS created by Goffy.
 * [Templates](book/7templates.md)
 * [Other](book/8other.md)
 * [Module Credits](book/9credits.md)
-* 
 
 ##License:
 

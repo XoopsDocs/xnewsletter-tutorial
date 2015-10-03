@@ -2,11 +2,9 @@
 
 On the xnewsletter dashboard you get a short overview about the functionalities and the content of the module.
 
-![](admin_en.PNG)
+![](../assets/admin_en.PNG)
 
-
-
-### Functionalities for admins:
+## Functionalities for admins:
 * [Accounts](book/accounts.md)
 * [Categories](book/categories.md)
 * [Subscribers](book/subscribers.md)
@@ -14,6 +12,7 @@ On the xnewsletter dashboard you get a short overview about the functionalities 
 * [Newsletters](book/attachments.md)
 * [Protocols](book/protocols.md)
 * [Mailinglists](book/mailinglists.md)
+* [Tasklists](book/tasklist.md)
 * [Bounced email handler](book/bounced_email_handler.md)
 * [Maintenance](book/maintenance.md)
 * [Import](book/import.md)
