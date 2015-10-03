@@ -15,7 +15,7 @@ In this list you can see also
 ![](../assets/admin area/newsletter2_en.PNG)
 
 Possible actions for a newsletter are
-* edit
+* ![](xn_catsubscr_temp.png)edit
 * clone
 * delete
 * show preview
