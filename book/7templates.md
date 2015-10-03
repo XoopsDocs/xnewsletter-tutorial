@@ -18,4 +18,4 @@ xnewsletter contains following templates
 #### Newsletter templates
 The newsletters are template based.
 The templates are stored as files in language/{yourlanguage}/templates or stored in database.
-For more info see ![Operating instructions](4operations.md)
+For more info see [Operating instructions](4operations.md)
