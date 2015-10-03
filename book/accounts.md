@@ -24,7 +24,7 @@ If you want to move them to special folders of your email account, you have to d
 There is a feature for testing pop3 and imap/smtp accounts.
 ![](../assets/admin area/accounts2_en.PNG)
 
-After starting the test you will see, whether the account and your chosen setting are well.
+After starting the test (![](../assets/xn_icons/xn_check.png)) you will see, whether the account and your chosen setting are well.
 
 >![](../assets/info/important.png) **Pay attention:** 
 1. **xnewsletter is not creating an email account** - the account must already exist
