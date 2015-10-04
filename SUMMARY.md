@@ -26,6 +26,5 @@
    * [List subscribers](book/list_subscribers.md)
 * [Blocks](book/6blocks.md)
 * [Templates](book/7templates.md)
-* [Other](book/8other.md)
 * [Module Credits](book/9credits.md)
 
