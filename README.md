@@ -58,7 +58,6 @@ This module is a Newsletter module for XOOPS created by Goffy.
 * [The User Side](book/5userside.md)
 * [Blocks](book/6blocks.md)
 * [Templates](book/7templates.md)
-* [Other](book/8other.md)
 * [Module Credits](book/9credits.md)
 
 ##License:
