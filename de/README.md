@@ -6,7 +6,7 @@
       
 ![logoModule.png](assets/logoModule.png)
 
-Version: xNewsletter 1.2 Final
+Version: xNewsletter 1.2 Final (DEUTSCH)
             
 ## User Manual
 
