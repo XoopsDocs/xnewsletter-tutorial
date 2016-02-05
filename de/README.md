@@ -5,6 +5,8 @@
 #### for XOOPS 2.5.7
       
 ![logoModule.png](assets/logoModule.png)
+
+Version: xNewsletter 1.2 Final
             
 ## User Manual
 
@@ -44,9 +46,24 @@ Editing the book can be done either by updating the markdown files with a text e
 
 # Table of Content
 
+* [Introduction](README.md)
 * [Install/Uninstall](book/1install.md)
 * [Administration Menu](book/2administration.md)
-* [Preferences](book/3preferences.md)
+   * [Accounts](book/accounts.md)
+   * [Categories](book/categories.md)
+   * [Subscribers](book/subscribers.md)
+   * [Categories-Subscribers](book/categories-subscribers.md)
+   * [Newsletters](book/newsletters.md)
+   * [Attachments](book/attachments.md)
+   * [Protocols](book/protocols.md)
+   * [Mailing lists](book/mailing_lists.md)
+   * [Task list](book/tasklist_md.md)
+   * [Bounced email handler](book/bounced_email_handler.md)
+   * [Maintenance](book/maintenance.md)
+   * [Import](book/import.md)
+   * [About](book/about.md)
+   * [Help](book/help.md)
+* [Preferences](book/3preferencesmd.md)
 * [Operating Instructions](book/4operations.md)
 * [The User Side](book/5userside.md)
 * [Blocks](book/6blocks.md)
@@ -59,4 +76,4 @@ Editing the book can be done either by updating the markdown files with a text e
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Unless specified, this content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-All derivative works are to be attributed to XOOPS Project ([www.xoops.org](http://xoops.org))
+All derivative works are to be attributed to XOOPS Project ([www.xoops.org](http://xoops.org)) 
