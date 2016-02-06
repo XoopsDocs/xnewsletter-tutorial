@@ -1,10 +1,10 @@
 ### _XOOPS Documentation Series_
-![logoXoops.jpg](assets/logoXoops.jpg)
+![logoXoops.jpg](en/assets/logoXoops.jpg)
 
 # Module xNewsletter
 #### for XOOPS 2.5.7
       
-![logoModule.png](assets/logoModule.png)
+![logoModule.png](en/assets/logoModule.png)
             
 Version: xNewsletter 1.2 Final
             
@@ -16,7 +16,7 @@ Version: xNewsletter 1.2 Final
 
 This module is a Newsletter module for XOOPS created by Goffy.
 
-![image001.png](assets/image001.jpg)
+![image001.png](en/assets/image001.jpg)
 *Figure 1: Main view of the xNewsletter Module (Admin side)*
 
 ## Key Features:
@@ -47,30 +47,30 @@ Editing the book can be done either by updating the markdown files with a text e
 # Table of Content
 
 * [Introduction](README.md)
-* [Install/Uninstall](book/1install.md)
-* [Administration Menu](book/2administration.md)
-   * [Accounts](book/accounts.md)
-   * [Categories](book/categories.md)
-   * [Subscribers](book/subscribers.md)
-   * [Categories-Subscribers](book/categories-subscribers.md)
-   * [Newsletters](book/newsletters.md)
-   * [Attachments](book/attachments.md)
-   * [Protocols](book/protocols.md)
-   * [Mailing lists](book/mailing_lists.md)
-   * [Task list](book/tasklist_md.md)
-   * [Bounced email handler](book/bounced_email_handler.md)
-   * [Maintenance](book/maintenance.md)
-   * [Import](book/import.md)
-   * [About](book/about.md)
-   * [Help](book/help.md)
-* [Preferences](book/3preferencesmd.md)
-* [Operating Instructions](book/4operations.md)
-* [The User Side](book/5userside.md)
-* [Blocks](book/6blocks.md)
-* [Templates](book/7templates.md)
-* [Miscellaneous](book/8other.md) 
-* [Module Credits](book/9credits.md)
-* [About XOOPS CMS](book/10aboutxoops.md)
+* [Install/Uninstall](en/book/1install.md)
+* [Administration Menu](en/book/2administration.md)
+   * [Accounts](en/book/accounts.md)
+   * [Categories](en/book/categories.md)
+   * [Subscribers](en/book/subscribers.md)
+   * [Categories-Subscribers](en/book/categories-subscribers.md)
+   * [Newsletters](en/book/newsletters.md)
+   * [Attachments](en/book/attachments.md)
+   * [Protocols](en/book/protocols.md)
+   * [Mailing lists](en/book/mailing_lists.md)
+   * [Task list](en/book/tasklist_md.md)
+   * [Bounced email handler](en/book/bounced_email_handler.md)
+   * [Maintenance](en/book/maintenance.md)
+   * [Import](en/book/import.md)
+   * [About](en/book/about.md)
+   * [Help](en/book/help.md)
+* [Preferences](en/book/3preferencesmd.md)
+* [Operating Instructions](en/book/4operations.md)
+* [The User Side](en/book/5userside.md)
+* [Blocks](en/book/6blocks.md)
+* [Templates](en/book/7templates.md)
+* [Miscellaneous](en/book/8other.md) 
+* [Module Credits](en/book/9credits.md)
+* [About XOOPS CMS](en/book/10aboutxoops.md)
 
 ##License:
 
