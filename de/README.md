@@ -59,6 +59,7 @@ Dieses Modul ist ein Newslettermodul für Xoops, erstellt von Goffy.
 * [Blöcke](book/6blocks.md)
 * [Templates](book/7templates.md)
 * [Modul Credits](book/9credits.md)
+* [About Xoops](book/10aboutxoops.md)
 
 ##Lizenzen:
 
