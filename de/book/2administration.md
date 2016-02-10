@@ -1,20 +1,20 @@
-# 2.0 Administration Menu
+# 2.0 Administrationsmenü
 
-On the xnewsletter dashboard you get a short overview about the functionalities and the content of the module.
+In der xnewsletter-Hauptübersicht erhalten sie eine kurze Übersicht über die Funktionalitäten und den Inhalt des Moduls.
 
-![](../assets/admin_en.PNG)
+![](../assets/admin_de.PNG)
 
-## Functionalities for admins:
-* [Accounts](book/accounts.md)
-* [Categories](book/categories.md)
-* [Subscribers](book/subscribers.md)
-* [Categories-Subscribers](book/categories-subscribers.md)
-* [Newsletters](book/attachments.md)
-* [Protocols](book/protocols.md)
-* [Mailinglists](book/mailinglists.md)
-* [Tasklists](book/tasklist.md)
+## Funktionalitäten für die Administration:
+* [E-Mail-Konten](book/accounts.md)
+* [Kategorien](book/categories.md)
+* [Abonnenten](book/subscribers.md)
+* [Kategorie-Abonnenten](book/categories-subscribers.md)
+* [Newsletter](book/attachments.md)
+* [Protokolle](book/protocols.md)
+* [Mailinglisten](book/mailinglists.md)
+* [Aufgabenlisten](book/tasklist.md)
 * [Bounced email handler](book/bounced_email_handler.md)
-* [Maintenance](book/maintenance.md)
+* [Wartung](book/maintenance.md)
 * [Import](book/import.md)
-* [About](book/about.md)
-* [Help](book/help.md)
+* [Über](book/about.md)
+* [Hilfe](book/help.md)

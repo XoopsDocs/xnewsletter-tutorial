@@ -1,9 +1,10 @@
-# 5.4 List subscribers
+# 5.4 Liste der Abonnenten
 
-If current user has the right to list subscribers of a newsletter, he get a list of newsletter cats, where he has this right
-![](../assets/user_area/user_list_subscr1_en.PNG)
+Wenn der aktuelle Benutzer das Recht zum Auflisten der Abonnenten für Newsletterkategorien hat, so erhält er zuerst eine Auflistung jener Kategorien, für die er dieses Recht besitzt.
+![](../assets/user_area/user_list_subscr1_de.PNG)
+Für weitere Infos siehe [Berechtigungen](categories.md)
 
-You can also search for an email address/person, in order to know, to which this email has been subscribed.
+Wenn sie auf"Details anzeigen" (Spalte Aktion) klichen, erhalten sie eine Liste aller Abonnenten dieser Newsletterkategorie
+![](../assets/user_area/user_list_subscr2_de.PNG)
 
-If you click  on "Show Details" (column Action) you get the list of all subscribers to this newsletter cat
-![](../assets/user_area/user_list_subscr2_en.PNG)
+Sie können auch nach einer EMail-Adresse suchen, um zu erfahren, bei welchen Newsletterkategorien diese EMail angemeldet ist.

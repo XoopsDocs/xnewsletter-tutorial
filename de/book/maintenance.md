@@ -1,6 +1,6 @@
-# 2.11 Maintainance
+# 2.11 Wartung
 
-This module has a maintain function, which can repair several faults in the data.
-![](../assets/admin area/maintenance1_en.PNG)
+Dieses Modul besitzt eine Wartungsfunktion, um verschiedene Fehler in der Datenstruktur zu beheben
+![](../assets/admin area/maintenance1_de.PNG)
 
-In order to keep the database clean and small, it is recommended to run the maintenance from time to time.
+Es wird empfohlen, diese Funktionen von Zeit zu Zeit durchzuführen, um die Daten sauber und die Datenmenge klein zu halten.

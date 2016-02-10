@@ -1,13 +1,13 @@
-# 2.4 Categories-Subscribers
+# 2.4 Abonnenten / Kategorie
 
-On this tab you can see an overview of your newsletter cats.
-![](../assets/admin area/catsub1_en.PNG)
+Auf diesem Registerblatt erhalten sie eine Übersicht über die bestehenden Kategorien
+![](../assets/admin area/catsub1_de.PNG)
 
-You can see also in the column "Subscribers" the number of subscribers for this cat.
+In der Spalte "Abonnenten" sehen sie die Anzahl der Abonnenten zu dieser Kategorie.
 
-If you click on the cat name or on "details" (![](../assets/xn_icons/xn_details.png)) you get the list with the subscribers
-![](../assets/admin area/catsub2_en.PNG)
+Wenn sie auf den Kategorienamen oder auf "Details" klicken (![](../assets/xn_icons/xn_details.png)), erhalten sie eine Liste der Abonnenten
+![](../assets/admin area/catsub2_de.PNG)
 
-If you want, you can also subscribe one person to one newsletter cat manually
-![](../assets/admin area/catsub3_en.PNG)
-If you quit a subscription by bounced mail handler, you can see the date of quitting
+Wenn sie wollen, können sie auch manuell einzelne Personen zu bestimmten Newsletterkategorien anmelden
+![](../assets/admin area/catsub3_de.PNG)
+Wenn ein Abonnement vom BMH beendet wurde, sehen sie hier auch das Datum der Beendigung.

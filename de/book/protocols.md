@@ -1,18 +1,18 @@
-# 2.7 Protocols
+# 2.7 Protokolle
 
-On this tab you can see an overview of the actions of newsletter module.
+Auf diesen Registerblatt sehen sie eine Übersicht über alle Aktionen im Newsletter-Modul.
 
-![](../assets/admin area/protocol1_en.PNG)
+![](../assets/admin area/protocol1_de.PNG)
 
 
-#### Misc protocol items
-Under misc protocol items you find the documentation about all activities, which are not related to a newsletter, e.g. subscription, synchronization of mailing lists, maintenance of module, and so on.
+#### Diverse Protokolleinträge
+Unter Diverse Protokolleinträge finden sie eine Dokumentation aller Aktivitäten, die nicht direkt mit einem bestimmten Newsletter zusammenhängen, wie z.B. An- und Abmeldungen Synchronisation mit Mailinglisten, Wartung des Moduls, und so weiter.
 
-#### Newsletter items
-For each newsletter you can see various protocol items for 
-* creation and saving the newsletter
-* sending activities for each subscriber (successful/failed)
-* summary protocol for last sending
-* and so on
+#### Newslettereinträge
+Für jeden Newsletter können sie verschiedene Protokolleinträge ersehen 
+* Erstellen und Speichern des Newsletters
+* Sendeaktivitäten für jeden Abonnenten (erfolgreich/fehlgeschlagen)
+* Zusammenfassendes Protokoll für den letzten Sendevorgang
+* und so weiter
 
-![](../assets/admin area/protocol2_en.PNG)
+![](../assets/admin area/protocol2_de.PNG)

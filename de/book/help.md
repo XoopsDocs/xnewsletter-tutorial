@@ -1,4 +1,4 @@
-# 2.14 Help
+# 2.14 Hilfe
 
-In the help tab you find also a short description of the functions of this module
-![](../assets/admin area/help1_en.PNG)
+Auf dem ab Hilfe finden sie auch eine kurze Beschreibung dieses Moduls
+![](../assets/admin area/help1_de.PNG)
