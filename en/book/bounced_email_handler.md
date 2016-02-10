@@ -26,4 +26,4 @@ Pay attention: functions like testing account, sending emails, start Bounced ema
 
 If mails to a subscriber get bounced, you can decide, what should happen with the subscriber:
 * If it is a permanent problem (e.g. email address isn't existing anymore) it is recommended to delete the subscriber (![](../assets/xn_icons/xn_quit.png))
-* If it is a temporary problem (e.g. mailbox full) it is recommended to quit the subscriber. He can reactivate late his subscriptions (![](../assets/xn_icons/xn_catsubscr_temp.png))
+* If it is a temporary problem (e.g. mailbox full) it is recommended to quit the subscriber. He can reactivate later his subscriptions (![](../assets/xn_icons/xn_catsubscr_temp.png))
