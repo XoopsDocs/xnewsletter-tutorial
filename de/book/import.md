@@ -1,46 +1,48 @@
 # 2.12 Import
 
-This module has also plugins to import data from other newsletter modules.
-![](../assets/admin area/import1_en.PNG)
+Dieses Modul besitzt verschiedene Plug-Ins zum Importieren der Daten von anderen Newslettermodulen.
+![](../assets/admin area/import1_de.PNG)
 
-You can import data with various plug-ins:
+Für den Import stehen folgende Plug-Ins zur Verfügung:
 - csv
-- module rmbulletin
-- module smartpartner
-- module weblinks
-- module evennews
-- module subscribers
-- users from xoops users
+- Modul rmbulletin
+- Modul smartpartner
+- Modul weblinks
+- Modul evennews
+- Modul subscribers
+- Benutzer aus aktuellen Xoops users
 
-In the import tool under "Available plug-ins" you see only plugins for modules, which are actually installed in your xoops.
- 
-The import tool works in this way:
-- Adding email to the list of subscribers
-- Subscribe this email to one newsletter cat
+Im Importtool werden unter "verfügbare plug-ins" werden nur jene Plug-Ins angezeigt, deren Module im aktuellen Xoops auch installiert sind.
 
-Before you run import tool therefore, please create first minimum one newsletter cat, otherwise the email cannot be subscribed to a cat and the import fails.
+Das Importtool arbeitet wie folgt:
+- Hinzufügen der E-Mail zur Liste der Abonnenten
+- Hinzufügen des Abonnenten zu einer Newsletterkategorie
 
-You have the possibility
-- to import the E-Mail-Addresses without any check (recommended for big import data sets) or
-- after reading data you can decide for each email
--- whether you want to make a subscription or not
--- to which newsletter you want to make the subscription
+Vor der Verwendung des Imorttools daher bitte mindestens eine Newsletterkategorie erstellen, da ansonsten die Email-Adressen keiner Kategorie zugeordnet werden können und daher kein Import erfolgt.
 
-If an email is already registered, import of this email should be skipped (default action, do not touch existing registrations). 
-Sample files (sample1col.csv, sample4col.csv) for csv-import you can find in ../xnewsletter/plugins/ 
+Es besteht die Möglichkeit,
+- die zu importierenden E-Mail-Adressen ohne jegliche Prüfung zu importieren (empfohlen bei sehr großen Importmengen) oder
+- nach dem Einlesen der Daten können Sie für e-Mail-Adresse noch überprüfen und entscheiden
+-- ob Sie überhaupt importiert werden soll oder nicht
+-- für welchen Newsletter die Anmeldung jeweils erfolgen soll
 
->![](../assets/info/important.png)**Attention**:In case of registrations/subscription with this import tool there will not be sent an email notification to the email owner.
+Wenn eine E-Mail-Adresse bereits registriert ist, sollte der Import dieser E-Mail übersprungen werden (standardmäßige Aktion).
+Beispieldateien (sample1col.csv, sample4col.csv) für einen csv-Import finden Sie unter ../xNewsletter/plugins/ 
+
+>![](../assets/info/important.png)**Achtung**:Bei den Registrierungen/Anmeldungen mit diesem Importtool werden keine E-Mail-Verständigungen an die jeweilige E-Mail-Adresse gesendet.
 
 
-**Importation of big email lists:**
+**Importieren von großen E-Maillisten:**
 
-To avoid cache overflow during importation, there are two limits:
-- first limit: only 100000 lines (e.g. of a csv-file) can be stored in temporary import table
-- second limit: you can finally import data from temporary import table in packages of max. 25000
+Um einen Speicherüberlauf zu verhindern, gibt es zwei Limits:
+- Erstes Limit: es können nur 100000 Zeilen (z.B. aus einer csv-Datei) in der temporären Importtabelle gespeichert werden
+- Zweites Limit: Sie können die Daten aus der temporären Tabelle in Paketen von max. 25000 endgültig importieren
 
-For import of more than 100k emails following procedure can be done:
-- run first import email 1 to 100000 - import finally emails in packages of 25k - run second import emails 100001 to 200000 (select option "skip existing subscriptions") - import finally in packages of 25k and so on.
-If file size is not too big to upload, you can repeat as often you want.
+Der Import von mehr als 100000 E-Mails kann wie folgt durchgeführt werden:
+- Ersten Import durchführen E-Mail 1 bis 100000 - Engültigen Import E-Mails in Paketen von 25000 
+- Zweiten Import durchführen E-Mail 100001 bis 200000 (Option "Existierende Newsletteranmeldungen überspringen"wählen) 
+- Engültigen Import E-Mails in Paketen von 25000 und so weiter.
+Wenn die Dateigröße die erlaubte Upload-Größe nicht übersteigt, kann dieser Vorgang so oft wiederholt werden, bis alle E-Mails importiert sind.
 
-If you get somewhere a white page, it is no problem because if option "skip existing subscriptions" is selected the import procedure restart at the first not imported email-address.
-Reduce number of importing emails or package size and try again.
+Sollten Sie eine weiße Seite erhalten, ist dies kein Problem, denn, wenn sie die Option "Existierende Newsletteranmeldungen überspringen" wählen, startet die Importroutine immer bei der ersten noch nicht importierten E-Mail-Adresse.
+Reduzieren Sie in diesem Fall die Anzahl der zu importierenden EMails oder die Paketgröße und versuchen es einfach erneut.

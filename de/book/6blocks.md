@@ -1,9 +1,9 @@
-# 6.0 Blocks
+# 6.0 Blöcke
 
-xnewsletters offers various blocks:
-* standard block for subcription<br/>![](../assets/user_area/block_general_en.PNG)
-* actual subscriptions
-* subscriptions of today
-* actual newsletters
-* newsletters of today
-* random newsletters
+xnewsletters bietet verschiedene Blöcke:
+* Standardblock für Anmeldung<br/>![](../assets/user_area/block_general_de.PNG)
+* Aktuelle Anmeldungen
+* Heutige Anmeldungen
+* Aktuelle Newsletters
+* Heutige Newsletters
+* Zufällige Newsletters

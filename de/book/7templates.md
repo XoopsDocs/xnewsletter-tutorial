@@ -1,13 +1,13 @@
 # 7.0 Templates
-xnewsletter contains following templates
-### User templates
+xnewsletter beinhaltet folgende Templates
+### Templates auf Benutzerseite
 * xnewsletter_letter.html
 * xnewsletter_letter_list.html
 * xnewsletter_protocol.html
 * xnewsletter_subscription.html
 * xnewsletter_subscription_result.html
 
-### Block templates
+### Blocktemplates
 * xnewsletter_catsubscr_block_day.html
 * xnewsletter_catsubscr_block_recent.html
 * xnewsletter_letter_block_day.html
@@ -15,7 +15,7 @@ xnewsletter contains following templates
 * xnewsletter_letter_block_recent.html
 * xnewsletter_subscrinfo_block.html
 
-#### Newsletter templates
-The newsletters are template based.
-The templates are stored as files in language/{yourlanguage}/templates or stored in database.
-For more info see [Operating instructions](4operations.md)
+#### Newslettertemplates
+Die Newsletter basieren auf Templates.
+Die Templates werden als Datei im Verzeichnis language/{yourlanguage}/templates oder in der Datenbank gespeichert.
+Für weitere Infos siehe [Bedienungsanleitung](4operations.md)

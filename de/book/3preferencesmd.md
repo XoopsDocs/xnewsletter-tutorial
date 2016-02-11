@@ -1,73 +1,54 @@
-# 3.0 Preferences
+# 3.0 Moduleinstellungen
 
-In the module preferences you can set various options for this module:<br/>
+In den Moduleinstellungen können sie verschiedene Optionen für dieses Modul bearbeiten:<br/>
 
-![](../assets/preferences_en.PNG)
+![](../assets/preferences_de.PNG)
 
-## Options in detail
+## Optionen im Detail
 #### Editor
-You can decide, which editor should be used for the creation of a newsletter on user side.
+Legen sie fest, welcher Editor auf der Benutzerseite für die Erstellung eines Newsletters verwendet werden soll.
 
-<<<<<<< HEAD
-### Keywords
-You can add keywords, which are added to the meta tags. Separate the keywords by comma.
-=======
-#### Keywords
-You can add keywords, which are added to the meta tags. Seperate the keywords by comma.
->>>>>>> XoopsDocs/master
+#### Schlüsselwörter
+Sie können Schlüsselwörter definieren, die den Meta Tags hinzugefügt werden. Separieren sie die Schlüsselwörter mit einem Komma.
 
-#### Maximum file size
-Please define the maximum file size for attachments to a newsletter. You have to enter the value for bytes (10485760 = 1 MB).
-
-<<<<<<< HEAD
-### Mime-Types
-=======
+#### Maximale Dateigröße
+Bitte definieren sie die maximale Dateigröße für Newsletter-Anhänge. Geben sie den Wert für Bytes an (10485760 = 1 MB).
 
 #### Mime-Types
->>>>>>> XoopsDocs/master
-Define which mime-types are allowed for attachments.
+Bitte definieren sie die erlaubten Dateitypen für Define Newsletter-Anhänge.
 
-#### Upload path
-Define path, where uploaded attachments will be saved ( folders after {XOOPS_ROOT_PATH}/uploads ), with slash at beginning and with trailing slash.<br/>
->**Attention:** make sure, that this path is really existing - xnewsletter will not create this path/folders
+#### Upload Pfad
+Bitte definieren sie den Ordner, in dem Newsletter-Anhänge gespeichert werden sollen ( Ordnder in {XOOPS_ROOT_PATH}/uploads ), mit Schrägstrich am Anfang und am Ende.<br/>
+>**Achtung:** vergewissern sie sich, dass dieser Pfad wirklich existiert, - xnewsletter erstellt keine Pfade/Ordner
 
-#### Number of list entries in admin pages
-Specifies how many items you want to display per page in the list.
+#### Anzahl Listeneinträge bei Admin-Seiten
+Definieren sie die Anzahl der Listeneinträge pro Seite.
 	
-#### Code of advertise
-Insert here the code of advertisement
+#### Werbecode
+Bitte hier Code für Werbungen eingeben.
 	
-#### View social networks?
-If you want to see the buttons of social networks, click on Yes
+#### Anzeige Social Networks?
+Wenn die Buttons für Social networks angezeigt werden sollen, dann bitte "Ja" wählen
 
-#### Code of social networks
-Insert here the code of social networks
+#### Code für Schaltflächen für Soziale Netzwerke
+Bitte Code für Social Networks eingeben
 	
-#### Use additional feature mailing lists
-If you have existing mailing lists, you can synchronize the subscribers of a newsletter category with a mailing list.<br/> xnewsletter cannot create mailing lists. If you enable this feature, you'll get an additional tab on the administration page of xnewsletter.
->![](../assets/info/important.png) **IMPORTANT:** xnewsletter cannot create mailing lists. 
+#### Verwende Zusatzfeature Mailinglisten
+Wenn sie bestehende Mailinglisten verwenden wollen, können sie diese mit den Abonnenten von Newsletterkategorien syncronisieren lassen.<br/>Wenn sie diese Funktion aktivieren, wird ihnen im xnewsletter-Admin-Bereich ein zusätzliches Registerblatt angezeigt.
+>![](../assets/info/important.png) **ACHTUNG:** xnewsletter kann keine Mailinglisten erstellen. 
 
-#### Use field salutation
-Please decide, whether you want use salutations like 'Mr.', 'Mrs.',...
+#### Feld 'Anrede' verwenden
+Bitte entscheiden sie, ob eine Anrede (wie z.B. "Herr", "Frau",...) verwendet werden soll.
 
-#### Groups (un)subscribing without confirmation email
-Define the groups, which can make (un)subscriptions to a newsletter directly, without sending back a confirmation email
-<<<<<<< HEAD
+#### Gruppen mit An-/Abmeldung ohne Bestätigungsmail
+Definieren sie die Gruppen, welche eine An- oder Abmeldung für einen Newsletter direkt durchführen darf (ohne Senden eines Bestätigungsmails)
 
-### Groups with permission to change subscription of other persons
-Define the groups, which can edit the subscriptions of other persons. Deleting the registration is not possible. This groups need also the permission to list the subscribers of a newsletter category. It is recommended to give this groups also the permission to create newsletters.
+#### Gruppen mit der Berechtigung zum Ändern von An-/Abmeldungen
+Bestimmen Sie bitte die Gruppen, die An-/Abmeldungen von anderen Personen bearbeiten dürfen. Ein Löschen der Registrierung ist nicht möglich. Diese Gruppen müssen auch die Berechtigung zum Auflisten der Abonnenten zu einer Newsletterkategorie haben. Diese Gruppen sollten außerdem die Berechtigung zum Erstellen eines Newsletters haben.
 	
-### Send e-mails in packages
-Number of e-mails, which should be sent in one package. 0 means, that all e-mails always be sent immediately. You can use this option only, if you can start cronjobs with external programs.
-=======
+#### E-Mails paketweise versenden
+Anzahl der E-Mails, die in einem Paket gesammelt versendet werden sollen. 0 bedeutet, dass alle E-Mails immer sofort versendet werden. Sie können diese Option nur verwenden, wenn Sie Cronjobs von einem externen Programm aus starten können.
 	
-#### Groups with permission to change subscription of other persons
-Define the groups, which can edit the subscriptions of other persons. Deleting the registration is not possible. This groups need also the permission to list the subscribers of a newsletter category. It is recommended to give this groups also the permission to create newsletters.
-	
-#### Send e-mails in packages
-Number of e-mails, which should be sent in one package. 0 means, that all e-mails always be sent immediatly. You can use this option only, if you can start cronjobs with external programs.
->>>>>>> XoopsDocs/master
-	
-#### Time period for sending e-mails in packages
-Time period in minutes, when the next package should be sent. Only used, if 'Send e-mails in packages' is bigger than 0.
+#### Zeitspanne für paketweises E-Mail versenden
+Zeitspanne in Minuten,bis das nächste Paket versendet werden soll. Wird nur berücksichtigt, wenn 'E-Mails paketweise versenden' größer 0 ist.
 

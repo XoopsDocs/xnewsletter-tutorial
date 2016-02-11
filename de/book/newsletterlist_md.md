@@ -1,15 +1,13 @@
-# 5.1 Newsletter list
+# 5.1 Newsletterlisten
 
-The user get a list of all newsletter already sent, but he can only see all newsletter cats, where his groups has the right to read.
+Der Benutzer erhält eine Auflistung aller bereits gesendeten Newsletter, jedoch nur für jene Kategorien, für die seine Gruppe das Leserecht bestitzt.
 
-![](../assets/user_area/user_newsletterlist1_en.PNG)
+![](../assets/user_area/user_newsletterlist1_de.PNG)
 
-The user can also see a preview of the newsletter.
+Der Benutzer kann sich auch eine Vorschau des Newsletters anzeigen lassen.
 
-Depending to the rights of current user, he can have more information possibilities (edit, delete, send,...) 
+Abhängig von den Rechten des aktuellen Benutzers werden zusätzlichen Möglichkeiten (Bearbeiten, Löschen, Senden,...) angeboten.
 
-![](../assets/user_area/user_newsletterlist2_en.PNG)
+![](../assets/user_area/user_newsletterlist2_de.PNG)
 
-For more info see also [Newsletter](newsletters.md)
-
-
+Für weitere Infos siehe [Newsletter](newsletters.md)

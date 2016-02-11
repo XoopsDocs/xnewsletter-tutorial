@@ -5,7 +5,7 @@
 The module is based on PHPMailer and PHPMailer-BMH 
 
 #### (Un) subscriptions to newsletters
-You can define for each group, whether for (un) subscription or change a confirmation email with activation key is necessary or not (use double-option).
+You can define for each group, whether for (un) subscription or change a confirmation email with activation key is necessary or not (use double-opt-in).
 
 #### Create a newsletter
 The newsletter can be created with each text editor which is installed in current xoops core (e.g. TinyMCE). 
@@ -39,7 +39,7 @@ Available smarty-vars are:
 - <{$unsubscribe_url}>: the unsubscribe url
 - <{$xoops_url}>: the site main url (e.g. http://localhost/)
 - <{$xoops_langcode}>: the site langcode (e.g. en)
-- <{$xoops_charset}>: the site cherset (e.g. UTF-8)
+- <{$xoops_charset}>: the site charset (e.g. UTF-8)
 
 
 #### Sending newsletter
@@ -48,7 +48,7 @@ You can send the newsletter for testing to a defined email-address.
 The newsletters will be sent subscriber by subscriber.
 For each sending action a protocol will be created.
 If one or more send failed, you can see it in the protocol.
-You can restart sending procedure. You can send it again to all subscribers or send it only to the subscribers, where sending procedure failed).
+You can restart sending procedure. You can send it again to all subscribers or send it only to the subscribers, where sending procedure failed.
 
 You can send all emails immediately or limit emails send in one package.
 The number of emails and the minutes until next sending can be defined in module preferences (e.g. 200 emails all 60 minutes).

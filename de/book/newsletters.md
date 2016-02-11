@@ -1,25 +1,24 @@
-# 2.5 Newsletters
+# 2.5 Newsletter
 
-On this tab you can see an overview of your existing newsletters.
-![](../assets/admin area/newsletter1_en.PNG)
+Auf diesem Registerblatt erhalten sie eine Übersicht über alle erfassten Newsletter.
+![](../assets/admin area/newsletter1_de.PNG)
 
-In this list you can see also
-* the used template 	
-* the cats to which the newsletter was sent
-* the number of attachments of this newsletter
-* the account used for sending
-* E-mail for testing newsletter
-* the last status in your protocols
+In dieser Liste sehen sie auch
+* das verwendete Template
+* alle Kategorien, an die der Newsletter versendet wurde
+* die Anzahl der Anhänge
+* das zum Senden verwendete EMail-Konto
+* E-Mail-Adresse für Testzwecke
+* den letzten Status aus den Protokollen
 
-#### Column Action
-![](../assets/admin area/newsletter2_en.PNG)
+#### Spalte Aktion
+![](../assets/admin area/newsletter2_de.PNG)
 
-Possible actions for a newsletter are
-* ![](../assets/xn_icons/xn_edit.png) edit
-* ![](../assets/xn_icons/xn_clone.png) clone
-* ![](../assets/xn_icons/xn_delete.png) delete
-* ![](../assets/xn_icons/xn_preview.png) show preview
-* ![](../assets/xn_icons/xn_sendtest.png) send test to defined test email address
-* ![](../assets/xn_icons/xn_send.png) send to all subscribers of this cat
-* ![](../assets/xn_icons/xn_resend.png) resend newsletter only to subscribers, where last try to send failed
-
+Mögliche Aktionen für Newsletter sind
+* ![](../assets/xn_icons/xn_edit.png) bearbeiten
+* ![](../assets/xn_icons/xn_clone.png) klonen
+* ![](../assets/xn_icons/xn_delete.png) löschen
+* ![](../assets/xn_icons/xn_preview.png) Vorschau anzeigen
+* ![](../assets/xn_icons/xn_sendtest.png) an die Test-EMail-Adresse senden
+* ![](../assets/xn_icons/xn_send.png) allen Abonnenten senden
+* ![](../assets/xn_icons/xn_resend.png) nur jenen Abonnenten senden, bei denen der letzte Sendeversuch fehlgeschlagen ist
