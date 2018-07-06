@@ -10,7 +10,7 @@ Version: xNewsletter 1.2 Final (DEUTSCH)
             
 ## User Manual
 
-© 2015 XOOPS Project ([www.xoops.org](http://xoops.org))   
+© 2015 XOOPS Project ([www.xoops.org](https://xoops.org))   
 
 ## Module Purpose 
 
@@ -34,7 +34,7 @@ This module is a Newsletter module for XOOPS created by Goffy.
 - Maintenance function included
 - Creating protocol for the important steps
 
-## Download/Fork the Module ![](http://xoops.org/images/forkit.png) 
+## Download/Fork the Module ![](https://xoops.org/images/forkit.png) 
 
 **You can fork the module --> [here](https://github.com/XoopsModules25x/xnewsletter))** 
 
@@ -76,4 +76,4 @@ Editing the book can be done either by updating the markdown files with a text e
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Unless specified, this content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-All derivative works are to be attributed to XOOPS Project ([www.xoops.org](http://xoops.org)) 
+All derivative works are to be attributed to XOOPS Project ([www.xoops.org](https://xoops.org)) 
