@@ -10,7 +10,7 @@ Version: xNewsletter 1.2 Final
             
 ## Benutzerhandbuch
 
-© 2015 XOOPS Project ([www.xoops.org](http://xoops.org))   
+© 2015 XOOPS Project ([www.xoops.org](https://xoops.org))   
 
 ## Beschreibung des Modules 
 
@@ -65,5 +65,5 @@ Dieses Modul ist ein Newslettermodul für Xoops, erstellt von Goffy.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Vorbehaltlich anderer Hinweise unterliegt dieser Inhalt den Bestimmungen gemäß <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-Alle Abwandlungen sind derivate von XOOPS Project ([www.xoops.org](http://xoops.org)) 
+Alle Abwandlungen sind derivate von XOOPS Project ([www.xoops.org](https://xoops.org)) 
 

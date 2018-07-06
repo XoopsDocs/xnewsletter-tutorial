@@ -5,14 +5,14 @@
 ## Module xNewsletter
 
 #### for XOOPS 2.5.7
-
+      
 ![logoModule.png](.gitbook/assets/logomodule.png)
-
+            
 Version: xNewsletter 1.2 Final
-
+            
 ### User Manual
 
-© 2015 XOOPS Project \([www.xoops.org](http://xoops.org)\)
+© 2015 XOOPS Project ([www.xoops.org](https://xoops.org))   
 
 ### Module Purpose
 
@@ -24,20 +24,9 @@ This module is a Newsletter module for XOOPS created by Goffy.
 
 ### Key Features:
 
-* Usage of one or more e-mail-accounts
-* Admin of one or more newsletter possible
-* Subscription procedure optionally use confirmation system \(double-opt-in\)
-* Detailed handling of permissions for subscription procedures
-* Newsletters are based on templates
-* Detailed handling of permissions for groups and newsletter \(subscribe, write, send\)
-* Send: send test mail, resend to all subscribers or only to subscribers, where sending failed
-* Sending newsletters to unlimited number of recipients or in packages with certain number of recipients by using cronjob
-* Bounced email handler for handling Bounced emails in case of invalid e-mail-addresses
-* Optional synchronization with mailing lists \(e.g. majordomo\)
-* Maintenance function included
-* Creating protocol for the important steps
+## Download/Fork the Module ![](https://xoops.org/images/forkit.png) 
 
-### Download/Fork the Module ![](http://xoops.org/images/forkit.png)
+### Download/Fork the Module ![](https://xoops.org/images/forkit.png)
 
 **You can fork the module --&gt;** [**here**](https://github.com/XoopsModules25x/xnewsletter)**\)**
 
@@ -80,5 +69,6 @@ Editing the book can be done either by updating the markdown files with a text e
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)  
 Unless specified, this content is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-All derivative works are to be attributed to XOOPS Project \([www.xoops.org](http://xoops.org)\)
+All derivative works are to be attributed to XOOPS Project \([www.xoops.org](https://xoops.org)\)
 
+All derivative works are to be attributed to XOOPS Project ([www.xoops.org](https://xoops.org))
