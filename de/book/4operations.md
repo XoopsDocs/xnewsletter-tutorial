@@ -1,86 +1,83 @@
-# 4.0 Operating Instructions
+# 4.0 Benutzeranleitung
 
-#### Basic information
+#### Grundsätzliche Information
 
-The module is based on PHPMailer and PHPMailer-BMH 
+Dieses Modul basiert auf PHPMailer und PHPMailer-BMH 
 
-#### (Un) subscriptions to newsletters
-You can define for each group, whether for (un) subscription or change a confirmation email with activation key is necessary or not (use double-option).
+#### An- und Abmeldung von Newslettern
+Sie können für jede einzelne Gruppe festlegen, ob für eine An-, Abmeldung oder Änderung der Newsletterabonnements ein Bestätigungsmail mit Aktivierungsschlüssel nötig ist oder nicht (Verwendung double-opt-in).
 
-#### Create a newsletter
-The newsletter can be created with each text editor which is installed in current xoops core (e.g. TinyMCE). 
-For each newsletter you can use different templates (see also 'Newsletter templates').
-You can define one or more newsletter categories for your newsletter.
-You can add 5 files maximum as attachment to each newsletter.
+#### Erstellen eines Newsletters
+Ein Newsletter kann mit jedem im Xoops-Core installierten Texteditor erstellt werden (z.B. TinyMCE). 
+Für die Newsletter können verschiedene Templates/Vorlagen  verwendet werden (siehe auch 'Newsletter Templates').
+Sie können für jeden Newsletter mehrere Kategorien (=Empfängergruppen) definieren.
+Sie können einem Newsletter maximal 5 Anhänge hinzufügen.
 
-Optionally you can also copy an older newsletter and edit or send it as a new one.
+Optional können sie auch einen alten Newsletter kopieren und bearbeiten oder neuerlich senden.
 
-The type of text editor, allows mime-types and size of mail attachments can be set in module preferences.
+Die Art des Texteditors, die erlaubten Dateitypen und die maximale Dateigröße für Anhänge kann in den Moduleinstellungen festgelegt werden.
 
+#### Newsletter Templates
+Die Newsletter basieren auf Templates.
+Die Templates werden als Datei im Verzeichnis language/{yourlanguage}/templates oder in der Datenbank gespeichert.
+Zum Erstellen eines neuen Templates können sie:
+- eine neue html-Datei im Verzeichnis language/{yourlanguage}/templates erstellen und die gewünschten Smarty-Variablen einsetzen
+- im Adminbereich ein neues Template erstellen und die gewünschten Smarty-Variablen einsetzen
 
-#### Newsletter templates
-The newsletters are template based.
-The templates are stored as files in language/{yourlanguage}/templates or stored in database.
-To create a new template you can:
-- make a new template html-file in in language/{yourlanguage}/templates folder and to put in the smarty-vars;
-- from admin side create a new template item and to put in the smarty-vars.
+Dieses Modul verwendet XOOPS [Smarty template engine](http://www.smarty.net/) zum Generieren der Newsletter.
 
-This module uses the XOOPS [Smarty template engine](http://www.smarty.net/) to render the email letter.
+Zulässige Smarty-Variablen sind:
+- <{$salutation}> oder <{$sex}>: das Anredefeld und das Geschlecht
+- <{$firstname}>: Vorname des Newsletterabonnenten
+- <{$lastname}>: Familienname des Newsletterabonnenten
+- <{$email}> or <{$subscr_email}>: Email des Newsletterabonnenten
+- <{$title}>: Newslettertitel
+- <{$content}>: Newsletterinhalt
+- <{$date}>: das Sendedatum als timestamp integer<br> 
+  (z.B.: <{$date|date_format:"%Y/%m/%d"}> gibt ein formatiertes Datum 2001/01/04 aus)
+- <{$unsubscribe_url}>: die Url zur Newsletterabmeldung
+- <{$xoops_url}>: die Url der aktuellen Webseite (z.B. http://mydomain.com/)
+- <{$xoops_langcode}>: den Sprachencode der aktuellen Seite (z.B. de)
+- <{$xoops_charset}>: die Art des Zeichensatzes der aktuellen Seite (z.B. UTF-8)
 
-Available smarty-vars are:
-- <{$salutation}> or <{$sex}>: the subscriber Salutation field
-- <{$firstname}>: the subscriber First name field
-- <{$lastname}>: the subscriber Last name field
-- <{$email}> or <{$subscr_email}>: the subscriber Email field
-- <{$title}>: the newsletter Title field
-- <{$content}>: the newsletter Content field
-- <{$date}>: the sending date as timestamp integer<br> 
-  (e.g.: <{$date|date_format:"%Y/%m/%d"}> will output the date formatted as 2001/01/04)
-- <{$unsubscribe_url}>: the unsubscribe url
-- <{$xoops_url}>: the site main url (e.g. http://localhost/)
-- <{$xoops_langcode}>: the site langcode (e.g. en)
-- <{$xoops_charset}>: the site cherset (e.g. UTF-8)
+#### Newsletter senden
+Sie können sich vor dem Senden eine Vorschau anzeigen lassen.
+Sie können den Newsletter auch zu Testzwecken an eine definierte E-Mail-Adresse senden.
+Der Newsletter wird je Abonnent versendet.
+Für jede Sendeaktion wird ein Protokolleintrag erstellt. 
+Wenn das Senden bei einem oder mehreren Abonnenten fehlgeschlagen ist, können sie dies aus dem Protokoll ersehen.
+Sie können den Sendeprozess auch erneut starten. Sie können dabei den Newsletter erneut an alle senden oder nur mehr an jene, bei denen der Sendeprozess fehlgeschlagen ist.
 
+Sie können alle Emails auf einmal oder paketweise versenden.
+Das Limit der Pakete und die Anzahl der Minuten bis zum nächsten Sendevorgang können in den Moduleinstellungen festgelegt werden (z.B. 200 Emails alle 60 Minuten).
+Das erste Paket wird sofort versendet. Zum Starten der nächsten Sendevorgänge benötigen sie einen externen Cronjob, welcher die Datei "../modules/xnewsletter/cron.php" aufruft. Xoops selbst kann derzeit keine Cronjobs abarbeiten (Version 2.5.5).
 
-#### Sending newsletter
-You can show a preview of a newsletter before sending.
-You can send the newsletter for testing to a defined email-address.
-The newsletters will be sent subscriber by subscriber.
-For each sending action a protocol will be created.
-If one or more send failed, you can see it in the protocol.
-You can restart sending procedure. You can send it again to all subscribers or send it only to the subscribers, where sending procedure failed).
+Bitte beachten sie: Funktionen wie das Testen der Email-Konten, das Senden von Mails, das Starten des Bounced email handler,... funktionieren nicht mit einem lokalen Server (sie erhalten weiße Seiten).
 
-You can send all emails immediately or limit emails send in one package.
-The number of emails and the minutes until next sending can be defined in module preferences (e.g. 200 emails all 60 minutes).
-The first package will be sent immediately. To start the next sending procedure you need an external cronjob, which is calling "../modules/xnewsletter/cron.php". Xoops cannot do this with current version (2.5.5).
+#### Aufgabenliste
+Wenn sie die Emails paketweise versenden, können sie hier sehen, welche Mails auf den nächsten Cronjob warten und die Zeit, an dem der Sendevorgang gestartet werden kann.
+Wenn sie die Option "paketweise Versenden" nicht verwenden, ist das Registerblatt "Aufgabenliste" nicht sichtbar.
 
-Pay attention: functions like testing account, sending emails, start Bounced email handler,... work not with local server (you get white page).
+#### Verwaltung von Mailinglisten
+Wenn sie bestehende Mailinglisten verwenden, können sie die An- bzw. Abmeldungen einer Newsletterkategorie mit einer Mailingliste syncronisieren.
+Ich verwende neben xNewsletter auch majordomo, damit ich im Bedarfsfall auch von einem normalen EMail-Client aus einen Newsletter an alle Abonnenten schicken kann.
+Einer der Nachteile von Mailinglisten ist, dass, sofern jemand bei zwei oder mehr Mailinglisten registriert ist, und ich einen Newsletter an alle Mailinglisten versende, diese Person den gleichen Newsletter mehrfach erhält. Mit xNewsletter erhält er diesen Newsletter nur einmal.
 
-#### Task list
-If you limit emails send in one package, you can see all newsletters waiting for next cronjob and the time, when cronjob can send the newsletter.
-If you do not use this option, the tab "Task list" is hidden.
+Das Registerblatt "Mailinglisten" ist nicht sichtbar, wenn diese Option deaktiviert ist.
 
-#### Handle mailing lists
-If you have an existing mailing list, you can synchronize the (un) subscriptions of one newsletter category with one mailing list.
-I use majordomo beside this newsletter module because then I can also send an email from my email-client to the newsletter recipients.
-One of the disadvantages of mailing lists is, that, if one person is registered in two or more mailing lists and you send a one newsletter to all mailing lists, this person gets the same newsletter more than one time. With xnewsletter he gets only one newsletter.
-
-Normally the tab "Mailing list" is hidden, if this option is disabled.
-
->![](../assets/info/important.png) **IMPORTANT:** xnewsletter cannot create mailing lists. 
+>![](../assets/info/important.png) **ACHTUNG:** xNewsletter kann keine Mailinglisten erstellen 
 
 #### Bounced email handler (BMH)
-If you send newsletters, there will always be some emails not delivered to recipient (Bounced email), because email is no more valid, mailbox is full, and so on.
-To handle this event and to react on this, you can use BMH.
-You can activate BMH for each account.
-Mails, which are detected as Bounced emails by BMH, can be deleted or moved in a special folder, you have to define.
-Possible actions for Bounced emails:
--- no action (only store)
--- quit temporary the subscriptions of this email-address
--- delete the subscriptions of this email-address
+Wenn Sie Newsletter versenden, wird es immer wieder vorkommen, dass einzelne Mails nicht zugestellt werden können (bounced mails), weil z.B. die E-Mail-Adresse nicht mehr gültig ist, weil die Mailbox voll ist, usw.
+Um solche Ereignisse zu verarbeiten und auch darauf zu reagieren, können Sie den BMH verwenden. Sie können den BMH für jedes einzelne E-Mail-Konto aktivieren.
+Nicht zustellbare Mails, die vom BMH als solche erkannt werden, können gelöscht oder in einen dafür vorgesehenen Ordner verschoben werden.
+Mögliche Aktionen für nicht zugestellte Mails:
+-- Keine Aktion (nur Ablage)
+-- Vorübergehendes Stilllegen der Anmeldungen für die jeweilige E-Mail-Adresse
+-- Löschen der Anmeldungen für die jeweilige E-Mail-Adresse
 
-#### Maintenance
-This module has a maintain function, which can repair several faults in the data.
+#### Wartung
+Das Modul hat Wartungsfunktionen, welche verschiedene Fehler in der Datenbasis bereinigen können.
 
 #### Import
-You can import data from other newsletter modules with various plug-ins.
+Sie können die Daten von anderen Newslettermodulen mit diversen Plug-Ins importieren.

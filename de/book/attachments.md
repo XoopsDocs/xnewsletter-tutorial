@@ -1,8 +1,7 @@
-# 2.6 Attachments
+# 2.6 Anhänge
 
-On this tab you can see an overview of existing attachments to your newsletters.
-![](../assets/admin area/attachment1_en.PNG)
+Auf diesem Registerblatt sehen sie eine Übersicht über die vorhandenen Newsletteranhänge.
+![](../assets/admin area/attachment1_de.PNG)
 
-
-If you want, you can also add an attachment to a newsletter manually
-![](../assets/admin area/attachment2_en.PNG)
+Wenn sie wollen, können sie hier einem Newsletter auch manuell einen Anhang hinzufügen
+![](../assets/admin area/attachment2_de.PNG)

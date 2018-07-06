@@ -1,18 +1,18 @@
-# 1.0 Install/Uninstall
+# 1.0 (De-)Installation
 
-No special measures necessary, follow the standard installation process - extract the /xnewsletter folder into the ../modules directory. Install the module through Admin -> Modules. If you need detailed instructions on how to install a module, please see the [XOOPS Operations Manual](http://goo.gl/adT2i).
-
-
-#### Detailed Steps:
-
-Upload the module to your website 
-
-Upload the 'xnewsletter' folder to {xoops-rootdirectory}/modules folder 
+Es sind keine speziellen Maßnahmen erforderlich, führen Sie den Standardinstallationsprozess aus:
+- Extrahieren Sie den Ordner xNewsletter in das Module-Verzeichnis
+- Installieren Sie das Modul über Administration -> Module
+Wenn Sie zustätzliche Informationen benötigen, lesen Sie die Installationshinweise unter [XOOPS Operations Manual](http://goo.gl/adT2i).
 
 
-Login as administrator and enter Xoops Administration page. 
-Select System --> modules and install xNewsletter from there 
+#### Detaillierte Schritte:
 
-Configure the module 
+Laden Sie das Modul auf ihre Webseite hoch (uploaden sie den Ordner 'xnewsletter' in den Ordner {xoops-rootdirectory}/modules)
 
-Most important steps now will be to setup the group permissions for the module and its blocks via System --> groups.
+Loggen sie sich als Administrator und wechseln sie zur Xoops Administrationseite
+Wählen sie System --> modules und installieren sie xNewsletter
+
+Konfigurieren sie das Modul 
+
+Die nächsten Schritte sind nun die Rechteverwaltung des Modules und der Blöcke in System --> Gruppen.

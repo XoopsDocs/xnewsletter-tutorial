@@ -1,11 +1,11 @@
-# 5.1 Subscribe and unsubscribe
+# 5.1 An- und Abmeldung
 
-If you are not logged in or your user account is not linked to a subscriber, you get first a form to enter your email address
-![](../assets/user_area/user_subscription1_en.PNG)
+Wenn sie sich nicht als Benutzer angemeldet haben oder ihr Benutzerkonto nicht mit einen Abonnenten verknüpft ist, erhalten sie zuerst ein Formular für die Eingabe der EMail-Adresse
+![](../assets/user_area/user_subscription1_de.PNG)
 
-if you enter your email and click on submit, then you get and overview about the existing subscriptions of this email.
-![](../assets/user_area/user_subscription2_en.PNG)
+Wenn sie eine EMail-Adresse angeben und auf Senden klicken, dann erhalten sie eine Übersicht über die erfassten Anmeldungen dieser EMail-Adresse.
+![](../assets/user_area/user_subscription2_de.PNG)
 
-If this email address isn't stored in the newsletter system, you get direclty to the form for subscription.
-![](../assets/user_area/user_subscription3_en.PNG)
-Under "Available newsletters" the user can see all newsletter cats, where his groups has the right to read.
+Ist die angegebene EMail-Adresse noch nicht im Newslettersystem erfasst, erhalten sie ein Formular für die Registrierung.
+![](../assets/user_area/user_subscription3_de.PNG)
+Unter "Verfügbare Newsletter" kann der Benutzer alle Newsletterkategorien sehen, für die er das Leserecht besitzt.

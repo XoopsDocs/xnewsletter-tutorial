@@ -1,15 +1,15 @@
-# 5.3 Create newsletter
+# 5.3 Newsletter erstellen
 
-If current user has the right to create a newsletter, he get a form:
-![](../assets/user_area/user_crete_newsletter1_en.PNG)
+Wenn der aktuelle Benutzer das Recht zum Erstellen eines Newsletters besitzt, dann erhält er folgendes Formular:
+![](../assets/user_area/user_crete_newsletter1_de.PNG)
 
-The creator can
-* decide, which template he will use (for more info see [Operating Instructions](4operations.md))
-* to which newsletter cats he want to send the newsletter (for more info see [Categories](categories.md))
-* add attachments
+Der Ersteller kann
+* entscheiden, welches Template er verwenden will (für weitere Infos siehe [Bedienungsanleitung](4operations.md))
+* an welche Newsletterkategorien er seinen Newsletter senden will (für weitere Infos siehe [Kategorien](categories.md))
+* Anhänge hinzufügen
 
-He can also decide, whether he want to 
-* send the newsletter immediately
-* see preview
-* sent newsletter as a test to his ohn email
-* do nothing for the moment (only saving)
+Er kann ebenso entscheiden, ob er
+* den Newsletter sofort senden möchte
+* eine Vorschau sehen möchte
+* den Newsletter zu Testzwecken an ein bestimmte EMail-Adresse senden will
+* momentan noch nichts tun will (nur speichern)

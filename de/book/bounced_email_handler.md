@@ -1,29 +1,27 @@
 # 2.10 Bounced email handler (BMH)
-If you send newsletters, there will always be some emails not delivered to recipient (Bounced email), because email is no more valid, mailbox is full, and so on.
-To handle this event and to react on this, you can use BMH.
-You can activate BMH for each account.
-Mails, which are detected as Bounced emails by BMH, can be deleted or moved in a special folder, you have to define.
+Wenn Sie Newsletter versenden, wird es immer wieder vorkommen, dass einzelne Mails nicht zugestellt werden können (bounced mails), weil z.B. die E-Mail-Adresse nicht mehr gültig ist, weil die Mailbox voll ist, usw.
+Um solche Ereignisse zu verarbeiten und auch darauf zu reagieren, können Sie den BMH verwenden. Sie können den BMH für jedes einzelne E-Mail-Konto aktivieren.
+Nicht zustellbare Mails, die vom BMH als solche erkannt werden, können gelöscht oder in einen dafür vorgesehenen Ordner verschoben werden.
 
-In this tab you can see an overview of the results of the last run BMH.
+Auf diesem Registerblatt sehen sie eine Übersicht über die Ergebnisse des letzten Durchlaufs des BMH
 
-![](../assets/admin area/bmh1_en.PNG)
+![](../assets/admin area/bmh1_de.PNG)
 
-If you run BMH, the module will check your email account for bounced mails.
-Mails, which are detected as bounced emails by BMH, can be deleted or moved in a special folder, you have to define.
+Wenn sie den BMH starteen, wird das Modul ihr Email-Konto nach zurückgewiesene Emails durchsuchen.
+Mails, die als zurückgewiesen erkannt wurden, können gelöscht oder in die von ihnen definierten Ordner verschoben werden. 
 
-#### Types of Bounced emails
-**bounce type hard:** This means that there is a permanent error when sending a mail, e.g. unknown recipient, unknown domain, and so on.
-This mails will be deleted after detection, so it is recommended using the move hard option (the email will be only moved in this folder, you can check this mail later, if you want).
+#### Arten von Bounced emails
+**bounce type hard:** Dies bedeutet, dass ein ständiger Fehler vorliegt, z.B. Empfänger unbekannt, Domain unbekannt, usw.
+Diese Mails werden nach Entdeckung/Klassifizierung als Typ hard gelöscht, deshalb wird empfohlen, die movehard-Option zu verwenden (die Mails werden dann nur in diesen Ordner verschoben, sie können die Mail später auch noch überprüfen, wenn Sie wollen).
 
-**bounce type soft:**
-This means that there is a temporary problem with sending a mail, e.g. mailbox full, server not available, and so on.
-This mails will not be deleted after detection, but it is recommended using the move soft option in order to keep your basic in box clean.
+**bounce type soft:** Dies bedeutet, dass ein vorübergehender Fehler vorliegt, z.B. Mailbox voll, Server momentan nicht verfügbar, usw.
+Diese Mails werden nach Entdeckung/Klassifizierung als Typ soft nicht gelöscht, es wird jedoch trotzdem empfohlen, die movesoft-Option zu verwenden, um den Hauptordner Posteingang frei zu halten.
 
-Pay attention: functions like testing account, sending emails, start Bounced email handler,... work not with local server (you get white page).
+Bitte beachten sie: Funktionen wie das Testen der Email-Konten, das Senden von Mails, das Starten des Bounced email handler,... funktionieren nicht mit einem lokalen Server (sie erhalten weiße Seiten).
 
-#### Possible reaction on bounced mails
-![](../assets/admin area/bmh2_en.PNG)
+#### Mögliche Reaktionen auf bounced mails
+![](../assets/admin area/bmh2_de.PNG)
 
-If mails to a subscriber get bounced, you can decide, what should happen with the subscriber:
-* If it is a permanent problem (e.g. email address isn't existing anymore) it is recommended to delete the subscriber (![](../assets/xn_icons/xn_quit.png))
-* If it is a temporary problem (e.g. mailbox full) it is recommended to quit the subscriber. He can reactivate late his subscriptions (![](../assets/xn_icons/xn_catsubscr_temp.png))
+Wenn die Mail an einen Abonnenten zurückgewiesen wurde, müssen sie entscheiden, was passieren soll:
+* bei einem permanenten Problem (z.B. die Email-Adresse existiert nicht mehr) wird empfohlen, den Abonnenten samt seinen Abonnements zu löschen (![](../assets/xn_icons/xn_quit.png))
+* Bei einem temporären Problem (z.B. Mailbox voll) wird empfohlen, das Abonnement nur zu beenden. Der Abonnent kann das später seine Anmeldungen reaktivieren (![](../assets/xn_icons/xn_catsubscr_temp.png))

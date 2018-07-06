@@ -1,31 +1,33 @@
-## 2.1 Accounts
+## 2.1 E_Mail-Konten
 
-On this tab you can see an overview of your existing accounts.
-You can use one or more email accounts for sending the newsletters.
-![](../assets/admin area/accounts1_en.PNG)
+Auf diesem Registerblatt finden sie eine Übersicht über die derzeit existierenden Konten.
+Sie können ein oder mehrere E-Mail-Konten zum Versenden der Newsletter verwenden.
+![](../assets/admin area/accounts1_de.PNG)
 
-You have the possibility to create an account for sending
-* with php mail() function
-* with php sendmail() function
-* via a pop3 email account
-* via a smtp email account
-* via a google email account
+Sie haben bei der Erstellung eines Kontos folgende Möglichkeiten:
+Senden 
+* mit der Funktion php mail() 
+* mit der Funktion php sendmail()
+* über ein pop3-EMail-Konto
+* über ein smtp-EMail-Konto
+* über ein google-EMail-Konto
 
-##### Example for an account using php mail() function
-![](../assets/admin area/accounts3_en.PNG)
+##### Beispiel für ein Konto mit Verwendung der Funktion php mail()
+![](../assets/admin area/accounts3_de.PNG)
 
-##### Example for an account using a smtp mail account
-![](../assets/admin area/accounts4_en.PNG)
-If you use a smtp or google account, you can also use bounced email handler (BMH) function.
-If you use BMH, you have to define, what should happen with bounced mails.
-If you want to move them to special folders of your email account, you have to define this folders. You can select a standard folder in your mailbox (e.g. INBOX.Trash) or create your own special folders like 'hard' and 'soft'. If you type in a new folder name, the folder will be automatically created (this function is not available for gmail-accounts). 
+##### Beispiel für ein Konto mit Verwendung eines smtp-EMail-Konto
+![](../assets/admin area/accounts4_de.PNG)
+Wenn sie ein smtp oder google-Konto verwenden, können sie auch die Funktion Bounced email handler (BMH) verwenden.
+Wenn sie den BMH verwenden wollen, müssen sie hier definieren, was mit zurückgewiesenen Mails passieren soll.
+Wenn sie die Mails in einen speziellen Ordner verschieben lassen wollen, dann müssen sie dies hier definieren.
+Sie können einen Standardordner (wie z.B. den Papierkorb INBOX.Trash) verwenden oder dafür eigene Ordner wie 'hard' und 'soft' erstellen. Wenn sie einen neuen Ordnernamen angeben, wird dieser Ordner auch automatisch erstellt (diese Funktion ist bei GMail-Konten aber nicht möglich). 
 
-#### Test your settings
-There is a feature for testing pop3 and imap/smtp accounts.
-![](../assets/admin area/accounts2_en.PNG)
+#### Testen der Einstellungen
+Diese Funktion dient zum testen der pop3 und imap/smtp Konten.
+![](../assets/admin area/accounts2_de.PNG)
 
-After starting the test (![](../assets/xn_icons/xn_check.png)) you will see, whether the account and your chosen setting are well.
+Nach dem Start des Tests (![](../assets/xn_icons/xn_check.png)) wird ihnen angezeigt, ob die von ihnen gewählten/angegebenen Einstellungen funktionieren.
 
->![](../assets/info/important.png) **Pay attention:** 
-1. **xnewsletter is not creating an email account** - the account must already exist
-2. functions like testing account, sending emails, start Bounced email handler,... work not with local server (you get white page without any error)
+>![](../assets/info/important.png) **Bitte beachten sie:** 
+1. **xnewsletter erstellt keine EMail-Konten** - das EMail-Konto muss bereits vorhanden sein
+2. Funktionen wie das Testen der Email-Konten, das Senden von Mails, das Starten des Bounced email handler,... funktionieren nicht mit einem lokalen Server (sie erhalten weiße Seiten)

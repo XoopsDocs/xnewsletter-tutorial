@@ -1,14 +1,13 @@
-# 2.3 Subscribers
+# 2.3 Abonnenten
 
-Each subscriber will be stored in the database once. After storing the person, he/she can subscribe to one or more newsletter cats.
+Jeder Abonnent wird nur einmal in der Datenbank gespeichert. Nach dem Speichern kann sich dieser zu den einzelnen Newsletterkategorien anmelden.
 
-On this tab you can see a list of all persons, which have subscribed to minimum one newsletter.
-![](../assets/admin area/subscribers2_en.PNG)
+Auf diesem Registerblatt sehen sie eine Liste aller Personen, die sich zumindest für eine Newsletterkategorie angemeldet haben.
+![](../assets/admin area/subscribers2_de.PNG)
 
-Beside the date of creation you see the current state:
-* ![](../assets/xn_icons/alert.png) the subscriber didn't send the confirmation mail till now
-* ![](../assets/xn_icons/xn_ok.png)  confirmation mail already sent
+Neben dem Erstelldatum ersehen sie den aktuellen Status:
+* ![](../assets/xn_icons/alert.png) der Abonnent hat bis jetzt das Bestätigungsmail noch nicht gesendet
+* ![](../assets/xn_icons/xn_ok.png) das Bestätigungsmail wurde gesendet
  
-You have also the possibility to add a person manually to the database.
-![](../assets/admin area/subscribers1_en.PNG)
-
+Sie haben auch die Möglichkeit, einzelne Personen der Datenbank manuell hinzuzufügen
+![](../assets/admin area/subscribers1_de.PNG)
