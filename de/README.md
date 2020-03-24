@@ -1,22 +1,22 @@
 ### _XOOPS Documentation Series_
-![logoXoops.jpg](assets/logoXoops.jpg)
+![](assets/logoXoops.jpg)
 
 # Modul xNewsletter
 #### für XOOPS 2.5.7
       
-![logoModule.png](assets/logoModule.png)
+![](assets/logoModule.png)
 
 Version: xNewsletter 1.2 Final
             
 ## Benutzerhandbuch
 
-© 2015 XOOPS Project ([www.xoops.org](https://xoops.org))   
+© 2018 XOOPS Project ([www.xoops.org](https://xoops.org))   
 
 ## Beschreibung des Modules 
 
 Dieses Modul ist ein Newslettermodul für Xoops, erstellt von Goffy.
 
-![image001.png](assets/image001.jpg)
+![](assets/image001.jpg)
 *Abbildung 1: Hauptübersicht des xNewsletter Moduls (Administrationsbereich)*
 
 ## Grundsätzliche Funktionen:

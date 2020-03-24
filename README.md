@@ -12,7 +12,7 @@ Version: xNewsletter 1.2 Final
             
 ### User Manual
 
-© 2015 XOOPS Project ([www.xoops.org](https://xoops.org))   
+© 2018 XOOPS Project ([www.xoops.org](https://xoops.org))   
 
 ### Module Purpose
 
@@ -20,7 +20,7 @@ This module is a Newsletter module for XOOPS created by Goffy.
 
  _Figure 1: Main view of the xNewsletter Module \(Admin side\)_
 
-![image001.png](.gitbook/assets/image001.jpg)
+![](.gitbook/assets/image001.jpg)
 
 ### Key Features:
 
