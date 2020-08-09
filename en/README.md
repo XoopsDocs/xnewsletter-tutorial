@@ -1,22 +1,22 @@
 ### _XOOPS Documentation Series_
-![](assets/logoXoops.jpg)
+![logoXoops.jpg](assets/logoXoops.jpg)
 
 # Module xNewsletter
 #### for XOOPS 2.5.7
       
-![](assets/logoModule.png)
+![logoModule.png](assets/logoModule.png)
             
 Version: xNewsletter 1.2 Final
             
 ## User Manual
 
-© 2018 XOOPS Project ([www.xoops.org](https://xoops.org))   
+© 2015 XOOPS Project ([www.xoops.org](http://xoops.org))   
 
 ## Module Purpose 
 
 This module is a Newsletter module for XOOPS created by Goffy.
 
-![](assets/image001.jpg)
+![image001.png](assets/image001.jpg)
 *Figure 1: Main view of the xNewsletter Module (Admin side)*
 
 ## Key Features:
@@ -34,7 +34,7 @@ This module is a Newsletter module for XOOPS created by Goffy.
 - Maintenance function included
 - Creating protocol for the important steps
 
-## Download/Fork the Module ![](https://xoops.org/images/forkit.png) 
+## Download/Fork the Module ![](http://xoops.org/images/forkit.png) 
 
 **You can fork the module --> [here](https://github.com/XoopsModules25x/xnewsletter))** 
 
@@ -72,8 +72,8 @@ Editing the book can be done either by updating the markdown files with a text e
 * [Module Credits](book/9credits.md)
 * [About XOOPS CMS](book/10aboutxoops.md)
 
-## License:
+##License:
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Unless specified, this content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
-All derivative works are to be attributed to XOOPS Project ([www.xoops.org](https://xoops.org))
+All derivative works are to be attributed to XOOPS Project ([www.xoops.org](http://xoops.org))
