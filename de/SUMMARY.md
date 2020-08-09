@@ -2,7 +2,7 @@
 
 * [Einleitung](README.md)
 * [(De-)Installation](book/1install.md)
-* [Administration Menü](book/2administration.md)
+* [Administrationsbereich](book/2administration.md)
    * [E-Mail-Konten](book/accounts.md)
    * [Kategorien](book/categories.md)
    * [Abonnenten](book/subscribers.md)
